@@ -5,18 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote genrator</title>
+    <link rel="stylesheet" href="quotes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div>
-        <h1>Quote of the day</h1>
-        <p>Press the button to get a new quote!</p>
+    <div class="container">
+        <header><h1>Quote of the day</h1></header>
 
-        <button id="btn">New quote, please!</button>
+        <div class="quoteArea">
+            <p id="quote"></p>
+            <p id="author"></p>
+        </div>
 
-        <p id="quote"></p>
-        <p id="author"></p>
-
+        <div class="buttonArea">
+            <button id="btn">New quote, please!</button>
+        </div>
     </div>
 
     <script src="quotes.js"></script>

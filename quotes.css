@@ -1,0 +1,29 @@
+body {
+    background-color: #438B91;
+    color: #fff;
+    font-family: 'Open Sans';
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+}
+
+hr {
+    border: 1px solid #fff;
+    width: 80%;
+}
+
+.container {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.quoteArea {
+    height: 200px;
+    text-align: center;
+    margin-top: 20%;
+}
